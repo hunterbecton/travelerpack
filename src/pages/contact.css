@@ -102,3 +102,10 @@
         grid-row-start: 2;
     }
 }
+
+.contact__thanks {
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
