@@ -48,6 +48,11 @@
     background-color: transparent;
     border-bottom: 1px solid rgba(255,255,255,0.5);
     transition: all 0.3s ease 0s;
+    font-family: Muli, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
 }
 
 .field input {
@@ -65,11 +70,6 @@
 
 .field input:focus, .field textarea:focus {
     border-bottom: 1px solid #F06666;
-    font-family: Muli, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 300;
-    color: #fff;
 }
 
 .actions {
