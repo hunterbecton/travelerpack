@@ -14,24 +14,24 @@ const Contact = () => (
                 <div className='inner'>
                         <form method='post' name='contact' data-netlify='true' netlify-honeypot='bot'>
                             <div className='field__hidden'>
-                                <label htmlFor='bot'>Don't fill this out, human</label>
+                                <label>Don't fill this out, human</label>
                                 <input type='text' name='bot' />
                             </div>
                             <div className='field'>
-                                <label htmlFor='name'>Name</label>
-                                <input type='text' name='name' id='name' />
+                                <label>Name</label>
+                                <input type='text' name='name'/>
                             </div>
                             <div className='field'>
-                                <label htmlFor='email'>Email</label>
-                                <input type='text' name='email' id='email' />
+                                <label>Email</label>
+                                <input type='text' name='email'/>
                             </div>
                             <div className='field'>
-                                <label htmlFor='message'>Message</label>
-                                <textarea name='message' id='message' rows='6'></textarea>
+                                <label>Message</label>
+                                <textarea name='message' rows='6'></textarea>
                             </div>
-                            <ul className='actions'>
-                                <li><button type='submit' className='btn__med'>Send</button></li>
-                            </ul>
+                            <div className='submit'>
+                                <button type='submit' className='btn__med'>Send</button>
+                            </div>
                         </form>
                 </div>
             </div>

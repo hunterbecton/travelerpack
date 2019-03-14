@@ -28,21 +28,22 @@
 }
 
 .contact__section {
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
 }
 
 .contact__form {
-    width: 60%;
-    min-height: 600px;
-    background-color: rgba(10,10,10,0.7);
+    background-color: rgba(255,255,255,0.1);
     border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 0 60px;
-    transform: translate(-50%, 30%);
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    grid-row-start: 2;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
 }
 
 .contact__form h1 {
@@ -88,8 +89,16 @@
     border-bottom: 1px solid #F06666;
 }
 
-.actions {
+.submit {
     text-align: center;
     padding: 0;
     margin: 30px 0;
+}
+
+@media screen and (max-width: 800px ) {
+    .contact__form {
+        grid-column-start: 1;
+        grid-column-end: span 6;
+        grid-row-start: 2;
+    }
 }
