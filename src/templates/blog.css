@@ -52,14 +52,19 @@
 }
 
 .blog__content blockquote {
-    margin: 0 0 60px 0;
+    margin: 100px 0 60px 0;
 }
 
 .blog__content blockquote:before {
-    content: url('../images/quote.svg');
-    display: inline-block;
+    position: absolute;
+    content: '';
     width: 37px;
-    transform: translateY(30px);
+    height: 37px;
+    background-image: url('../images/quote.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-50px);
 }
 
 .blog__content blockquote p {
