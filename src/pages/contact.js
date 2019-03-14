@@ -7,7 +7,7 @@ import './contact.css';
 const Contact = () => (
     <Layout>
         <Nav />
-        <div className='background'></div>
+        <div className='contact__header'></div>
         <div className='contact__section'>
             <div className='contact__form'>
             <h1>Contact</h1>
@@ -30,7 +30,7 @@ const Contact = () => (
                                 <textarea name='message' id='message' rows='6'></textarea>
                             </div>
                             <ul className='actions'>
-                                <li><input type='submit' value='Send' className='btn__med' /></li>
+                                <li><button type='submit' className='btn__med'>Send</button></li>
                             </ul>
                         </form>
                 </div>
