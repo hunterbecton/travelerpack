@@ -58,7 +58,8 @@
 .blog__content blockquote:before {
     content: url('../images/quote.svg');
     display: inline-block;
-    transform: translateY(20px);
+    width: 50px;
+    transform: translateY(30px);
 }
 
 .blog__content blockquote p {
