@@ -7,7 +7,9 @@ import './contact.css';
 const Contact = () => (
     <Layout>
         <Nav />
+        <header>
         <div className='contact__header'></div>
+        </header>
         <div className='contact__section'>
             <div className='contact__form'>
             <h1>Contact</h1>
