@@ -12,7 +12,7 @@ const Contact = () => (
             <div className='contact__form'>
             <h1>Contact</h1>
                 <div className='inner'>
-                        <form method='post' name='contact' data-netlify='true' netlify-honeypot='bot'>
+                        <form method='post' name='contact' action='/' data-netlify='true' netlify-honeypot='bot'>
                             <div className='field__hidden'>
                                 <label>Don't fill this out, human</label>
                                 <input type='text' name='bot' />
