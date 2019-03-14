@@ -15,7 +15,7 @@ const Contact = () => (
                         <form method='post' name='contact' action='/' data-netlify='true' netlify-honeypot='bot'>
                             <div className='field__hidden'>
                                 <label>Don't fill this out, human</label>
-                                <input type='text' name='bot' />
+                                <input type='hidden' name='bot' />
                             </div>
                             <div className='field'>
                                 <label>Name</label>
