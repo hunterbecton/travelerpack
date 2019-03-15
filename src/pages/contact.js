@@ -1,11 +1,13 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Nav from '../components/nav';
+import SEO from '../components/seo';
 
 import './contact.css';
 
 const Contact = () => (
     <Layout>
+        <SEO title='Contact' description='Contact Hunter Becton: Travel Photographer and Blogger' keywords={[`contact`, `Hunter Becton`, `Travel Photography`]} />
         <Nav />
         <div className='contact__header'></div>
         <div className='contact__section'>

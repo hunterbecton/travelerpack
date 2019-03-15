@@ -3,6 +3,7 @@ import { Link, graphql, navigate } from 'gatsby';
 import { window } from 'browser-monads';
 import Layout from '../components/layout';
 import Nav from '../components/nav';
+import SEO from '../components/seo';
 import '../components/home/home.css';
 import './archive.css';
 
@@ -19,6 +20,7 @@ const OpinionPage = (props) => {
 
   return (
     <Layout>
+    <SEO title='Blog' keywords={[`travel`, `travel blog`, `travel photography`]} />
     <Nav />
 
       <header>
